@@ -13,7 +13,7 @@ namespace ClientApiChampionsDevs
 
         public CarClient()
         {
-            const string carApiBaseUrl = "http://localhost:5107/";
+            const string carApiBaseUrl = "http://localhost:5161/";
 
             _restClient = new RestClient(carApiBaseUrl);
         }
